@@ -47,7 +47,7 @@ header.masthead {
     font-family: 'Berlin';
 }
 
-h2, .section-subheading, .info, .portfolio-caption-subheading, .portfolio-caption-subheading-t{
+h2, .section-subheading, .info, .portfolio-caption-heading, .portfolio-caption-subheading, .portfolio-caption-subheading-t{
     font-family: 'Berlin-reg';
 }
 
@@ -106,6 +106,24 @@ p.section-subheading{
     font-size: 1.2rem;
 }
 
+.img-fluid.info{
+    width: 600px;
+    border-radius: 5%;
+}
+
+.portfolio-caption.info{
+    margin: 4rem 0;
+}
+
+.portfolio-caption-heading{
+    font-size: 2.5rem;
+}
+
+.portfolio-caption-subheading.info{
+    font-size: 1.5rem;
+    padding: 0;
+}
+
 .entrega{
     padding-bottom: 80px;
     width: 800px;
@@ -121,7 +139,7 @@ p.section-subheading{
     margin: 0 0.5rem;
 }
 
-#catalogo, #nosotras, #presupuestos, #presupuestos-t, .sabores, .portfolio-caption-subheading-t{
+#catalogo, #presupuestos, #presupuestos-t, .sabores, .portfolio-caption-subheading-t{
     padding-bottom: 20px;
 }
 
@@ -149,6 +167,10 @@ hr{
 .carousel-caption{
     color: rgb(250, 177, 177);
     text-shadow: 2px 2px black;
+}
+
+.footer{
+    margin-top: 3rem;
 }
 
 .footer p {
