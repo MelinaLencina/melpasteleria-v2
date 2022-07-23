@@ -122,7 +122,7 @@ p.section-subheading{
 }
 
 #catalogo, #nosotras, #presupuestos, #presupuestos-t, .sabores, .portfolio-caption-subheading-t{
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -131,24 +131,24 @@ padding-bottom: 20px;
 }
 
 .portfolio-caption-subheading{
-padding-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 hr{
-border: 0;
-height: 3px;
-background: black
-background-image linear-gradient(to right, #ccc, black, #ccc);
+    border: 0;
+    height: 3px;
+    background: black
+    background-image linear-gradient(to right, #ccc, black, #ccc);
 }
 
 .carousel{
-  width: 70%;
-  margin: 0 auto;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .carousel-caption{
-  color: rgb(250, 177, 177);
-  text-shadow: 2px 2px black;
+    color: rgb(250, 177, 177);
+    text-shadow: 2px 2px black;
 }
 
 .footer p {
