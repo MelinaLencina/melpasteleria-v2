@@ -111,6 +111,10 @@ p.section-subheading{
     border-radius: 3%;
 }
 
+.img-fluid.clientes{
+    width: 350px;
+}
+
 .portfolio-caption.info{
     margin: 3rem 0;
 }
