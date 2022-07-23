@@ -47,11 +47,11 @@ header.masthead {
     font-family: 'Berlin';
 }
 
-h2, .section-subheading, .info, .portfolio-caption-heading, .portfolio-caption-subheading, .portfolio-caption-subheading-t{
+h2, .section-subheading, .info, .portfolio-caption-heading, .portfolio-caption-subheading{
     font-family: 'Berlin-reg';
 }
 
-.masthead, .btn-circle.btn-sm, .portfolio-item, .portfolio-caption, .portfolio-caption-subheading, .portfolio-caption-subheading-t, .gracias, .footer{
+.masthead, .btn-circle.btn-sm, .portfolio-item, .portfolio-caption, .portfolio-caption-subheading, .gracias, .footer{
     text-align: center;
 }
 
@@ -112,7 +112,7 @@ p.section-subheading{
 }
 
 .portfolio-caption.info{
-    margin: 4rem 0;
+    margin: 3rem 0;
 }
 
 .portfolio-caption-heading{
@@ -135,17 +135,16 @@ p.section-subheading{
     margin: 1.5rem 0;
 }
 
-.mx-2 {
-    margin: 0 0.5rem;
+.productos{
+    width: 400px;
 }
 
-#catalogo, .presupuestos, .presupuestos-title, .portfolio-caption-subheading-t{
+.productos-h{
+    width: 600px;
+}
+
+.catalogo, .presupuestos, .presupuestos-title{
     padding-bottom: 20px;
-}
-
-
-.portfolio-caption{
-    padding-top: 20px;
 }
 
 .portfolio-caption-subheading{
@@ -155,13 +154,16 @@ p.section-subheading{
 hr{
     border: 0;
     height: 3px;
-    background: black
-    background-image linear-gradient(to right, #ccc, black, #ccc);
+    background-image: linear-gradient(to right, #ccc, black, #ccc);
 }
 
 .carousel{
     width: 70%;
-    margin: 0 auto;
+    margin: 2rem auto;
+}
+
+.carousel-item{
+    width: 100%;
 }
 
 .carousel-caption{
