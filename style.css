@@ -1,67 +1,81 @@
 @font-face {
-  font-family: Berlin;
-  src: url(assets/fonts/Berlin.ttf);
+    font-family: Berlin;
+    src: url(assets/fonts/Berlin.ttf);
 }
 
 @font-face {
-  font-family: Berlin-reg;
-  src: url(assets/fonts/Berlin-reg.ttf);
+    font-family: Berlin-reg;
+    src: url(assets/fonts/Berlin-reg.ttf);
 }
 
 @font-face {
-  font-family: Lucida;
-  src: url(assets/fonts/Lucida.ttf);
+    font-family: Lucida;
+    src: url(assets/fonts/Lucida.ttf);
 }
 
 @font-face {
-  font-family: Segoe;
-  src: url(assets/fonts/Segoe.ttf);
+    font-family: Segoe;
+    src: url(assets/fonts/Segoe.ttf);
 }
 
-#mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: white;
+.mainNav {
+    padding: 1rem 0;
+    background-color: white;
+}
+
+.navbar-brand img{
+    width: 300px;
 }
 
 header.masthead {
+    color: black;
     padding-top: 10.5rem;
     padding-bottom: 6rem;
-    text-align: center;
-    color: black;
-    background-image: url("assets/img/cajitamix4.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-image: url("./assets/img/cajitamix4.jpg");
     background-position: center;
     background-size: cover;
 }
 
-#portada{
-  background-color: #3da2aa;
-  padding: 25px;
-  opacity: 0.8;
-  border-radius: 95px;
+.portada{
+    background-color: #3da2aa;
+    padding: 25px;
+    opacity: 0.8;
+    border-radius: 95px;
 }
 
-.masthead-heading, .section-heading, .page-section, .section-heading, .page-section{
-  font-family: 'Berlin';
+.masthead-heading, .section-heading, .page-section, .title{
+    font-family: 'Berlin';
 }
 
-h2, h3, .info, .portfolio-caption-subheading, .portfolio-caption-subheading-t{
+h2, .section-subheading, .info, .portfolio-caption-subheading, .portfolio-caption-subheading-t{
     font-family: 'Berlin-reg';
 }
 
-.btn-circle.btn-sm, .portfolio-item, .portfolio-caption, .portfolio-caption-subheading, .portfolio-caption-subheading-t, #gracias, .footer{
-text-align: center;
+.masthead, .btn-circle.btn-sm, .portfolio-item, .portfolio-caption, .portfolio-caption-subheading, .portfolio-caption-subheading-t, .gracias, .footer{
+    text-align: center;
 }
 
-.section-heading{
-  font-size: 3rem;
+a {
+    text-decoration: none;
+}
+
+p.section-heading{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+p.section-subheading{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.bienvenidos{
+    margin-bottom: 5rem;
 }
 
 .page-section {
-  display: block;
-  padding: 4rem 0;
+    display: block;
+    padding: 4rem 0;
 }
 
 .col-lg-4 {
@@ -70,47 +84,42 @@ text-align: center;
 }
 
 .btn-primary{
-  background-color: #3da2aa;
+    background-color: #3da2aa;
     border: none;
+    padding: 1.5rem;
 }
 
-  .btn-primary:hover{
+.btn-primary svg{
+    width: 100px;
+}
+
+.btn-primary:hover{
     background-color: #389197;
-  }
-
-.btn-circle.btn-sm {
-    font-size: 0.5rem;
-    width: 30px;
-    height: 30px;
-    padding: 6px 0px;
-    border-radius: 15px;
 }
 
-.portfolio-item{
-    display: block;
+.title{
+    font-size: 2rem;
+    margin-top: 1rem;
 }
 
-#entrega{
-  padding-bottom: 80px;
+.info{
+    font-size: 1.2rem;
 }
 
-#gracias{
-  border-radius: 100%;
+.entrega{
+    padding-bottom: 80px;
+    width: 800px;
+}
+
+.gracias{
+    width: 300px;
+    border-radius: 100%;
+    margin: 1.5rem 0;
 }
 
 .mx-2 {
     margin: 0 0.5rem;
 }
-
-
-.text-decoration {
-    text-decoration: none;
-}
-
-.me-3 {
-    margin-right: 1rem;
-}
-
 
 #catalogo, #nosotras, #presupuestos, #presupuestos-t, .sabores, .portfolio-caption-subheading-t{
 padding-bottom: 20px;
@@ -142,7 +151,22 @@ background-image linear-gradient(to right, #ccc, black, #ccc);
   text-shadow: 2px 2px black;
 }
 
-.footer {
-    font-size: 0.9rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.footer p {
+    font-size: 1rem;
+    font-family: "Segoe UI", "Roboto";
+}
+
+.link-dark{
+    margin-right: 1rem;
+}
+
+.btn-circle.btn-sm{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.btn-circle.btn-sm svg{
+    width: 16px;
 }
