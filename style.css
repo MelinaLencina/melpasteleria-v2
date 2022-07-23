@@ -107,8 +107,8 @@ p.section-subheading{
 }
 
 .img-fluid.info{
-    width: 600px;
-    border-radius: 5%;
+    width: 650px;
+    border-radius: 3%;
 }
 
 .portfolio-caption.info{
@@ -139,7 +139,7 @@ p.section-subheading{
     margin: 0 0.5rem;
 }
 
-#catalogo, #presupuestos, #presupuestos-t, .sabores, .portfolio-caption-subheading-t{
+#catalogo, .presupuestos, .presupuestos-title, .portfolio-caption-subheading-t{
     padding-bottom: 20px;
 }
 
